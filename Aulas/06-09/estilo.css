@@ -1,0 +1,25 @@
+.div_card {
+    align-content: center;
+    width: 500px;
+    height: fit-content;
+    background-color: #E0CBA8;
+    border-radius: 25px;
+    border: solid 2px #020202;
+    margin: 20px;
+}
+
+.div_circulo {
+    width: 100px;
+    height: 100px;
+    background-color: #88498F;
+    border-radius: 50px;
+}
+
+.div_texto {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+#h1_texto {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

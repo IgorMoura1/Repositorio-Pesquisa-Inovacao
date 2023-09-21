@@ -1,0 +1,6 @@
+tag <li> 
+
+a div não tem estilização específica, serve para dividir e colocar componentes separados
+h1 é para headers, títulos, elevancia e importância
+tag unordered list <ul> tag para coisas não organizadas, que não tenham sequência (não ordenada)
+tag <ul> tag para coisas não organizadas para ter número, como se fosse do 1 até o ultimo item da lista. 
