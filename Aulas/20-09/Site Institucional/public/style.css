@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.header {
+    border-bottom: 3px solid aqua;
+    background-color: black;
+    margin: 0px 0px 3px 0px;
+}
+
+.header .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.header .container ul {
+    width: 400px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(255, 145, 0)
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(255, 145, 0)
+}
+
+.header h1 {
+    color: aqua;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.banner {
+    background-image: url("assets/imgs/bg-jelly-fish-para_outras_pags.png");
+    background-size: cover;
+}
+
+.banner .container {
+    justify-content: center;
+    align-items: center;
+    height: 470px;
+}
+
+.banner .container p {
+    font-size: 36px;
+    color: azure;
+    width: 280px;
+}
+
+.social {
+    background-color: #e5e5e5;
+    display: flex;
+}
+
+.social .container {
+    justify-content: center;
+}
+
+.box img {
+    width: 100px;
+}
+
+.social .container .boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 280px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.footer {
+    width: 100%;
+    height: 60px;
+    background-color: #59656F;
+}
+
+.footer .container .version {
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.card {
+    width: 50%;
+    background-color: #BAC2C9;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color: palevioletred;
+}
+
+.card h2 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.login .container { 
+    justify-content: center;
+    height: 465px;
+} 
+
+.formulario {
+    display: flex;
+    height: 90%;
+    width: 80%;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.formulario span {
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.formulario input {
+    border: 1px solid #1D1E2C;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.botao {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    border: 0;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Courier, monospace;
+    font-weight: 100;
+    font-size: 12px;
+    background-color: #FFFFFF;
+    width: 80px;
+    height: 20px;
+    align-self: center;
+}
+
+.login .container .version {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+
+
